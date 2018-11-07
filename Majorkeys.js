@@ -1,0 +1,12 @@
+let name = window.prompt("What is your name?")
+let one = window.prompt("What is your first key?")
+let two = window.prompt("What is your second key?")
+let three = window.prompt("What is your third key ?")
+let four = window.prompt("What is your fourth key?")
+let five = window.prompt("What is your fifth key?")
+document.getElementById("header").innerHTML = name;
+document.getElementById("item1").innerHTML = one;
+document.getElementById("item2").innerHTML = two;
+document.getElementById("item3").innerHTML = three;
+document.getElementById("item4").innerHTML = four;
+document.getElementById("item5").innerHTML = five;
