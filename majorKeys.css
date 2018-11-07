@@ -1,0 +1,33 @@
+#header{
+  color:blue;
+  text-transform: uppercase;
+}
+
+#item1{
+  color:blue;
+  text-transform: uppercase;
+}
+
+#item2{
+  color:blue;
+  text-transform: uppercase;
+}
+
+#item3{
+  color:blue;
+  text-transform: uppercase;
+}
+
+#item4{
+  color:blue;
+  text-transform: uppercase;
+}
+
+#item5{
+  color:blue;
+  text-transform: uppercase;
+}
+
+li:hover{
+  text-transform:lowercase;
+}
