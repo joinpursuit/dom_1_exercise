@@ -1,4 +1,5 @@
 let str = window.prompt("Please enter a string");
-let newStr = str + " ";
 let x = window.prompt("Please enter a number");
-window.alert(newStr.repeat(x));
+for (let i = 0; i < x; i++) {
+  window.alert(str);
+}
