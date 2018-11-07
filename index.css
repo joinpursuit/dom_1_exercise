@@ -1,3 +1,7 @@
+ol {
+  /* display: none; */
+}
+
 ol li {
   list-style-type: none;
 }

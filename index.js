@@ -45,3 +45,27 @@ const oddOrEven = (num) => {
 
 
 // QUESTION: 4
+
+let name = window.prompt(document.getElementById('header').innerHTML);
+  document.getElementById('header').innerHTML =
+  `Your name is ${name}.`;
+
+    key = window.prompt(document.getElementById('item1').innerHTML);
+    document.getElementById('item1').innerHTML =
+    `Your name is now ${key}.`;
+
+    key = window.prompt(document.getElementById('item2').innerHTML);
+    document.getElementById('item2').innerHTML =
+    `Your name is now ${key}.`;
+
+    key = window.prompt(document.getElementById('item3').innerHTML);
+    document.getElementById('item3').innerHTML =
+    `Your name is now ${key}.`;
+
+    key = window.prompt(document.getElementById('item4').innerHTML);
+    document.getElementById('item4').innerHTML =
+    `Your name is now ${key}.`;
+
+    key = window.prompt(document.getElementById('item5').innerHTML);
+    document.getElementById('item5').innerHTML =
+    `Your name is now ${key}.`;
