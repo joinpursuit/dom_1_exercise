@@ -16,7 +16,7 @@ body {
  grid-row-start: 2;
  padding: 5%;
 
- width: fit-content;
+ /* width: fit-content; */
  border-radius: 10%;
  align-items: center;
 
@@ -28,6 +28,17 @@ body {
 
 }
 
+li {
+  /* width: 50%; */
+  width: fit-content;
+}
+
+/* li::marker {
+  color: black;
+} */
+
+
 ol {
   display: inline;
+
 }
