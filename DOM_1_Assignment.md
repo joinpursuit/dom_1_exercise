@@ -38,3 +38,9 @@ Take each user response. Change the `h1` tag to read "<name>'s Major Keys", wher
 ### Bonus
 
 Allow the user to **highlight each key**, in the color of your choice, by CAPITALIZING the word in their input. Highlight the word and convert it to lowercase.
+
+//google:
+change css style with javascript
+https://www.w3schools.com/js/js_htmldom_css.asp
+
+https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp
