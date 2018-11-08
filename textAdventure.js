@@ -1,4 +1,5 @@
 //TODO: build @least 1 stage a day!
+//make it where fellows can easily add to the level design etc and create custom levels maps etc
 let star = `⭐`;
 let stars = 0;
 let hearts = ['💔', '💛', '💚', '💖'];
