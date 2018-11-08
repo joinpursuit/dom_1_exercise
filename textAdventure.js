@@ -1,21 +1,23 @@
-let life = `💚 `;
-let lost = `💔`;
+//TODO: build @least 1 stage a day!
 let star = `⭐`;
-let lives = 3;
 let stars = 0;
+let hearts = ['💔', '💛', '💚', '💖'];
+let pups = ['☠', '💀', '🐶', '🐶'];
+let hp = 3;
 let won = false;
 let welcome = `Puppy Come Home!`;
 let winner = `Welcome Home Puppy!! You earned a ${star}!`;
-const getLives = () => {
-  let str = '';
-  for (let i = 0; i < lives; i++) {
-    str += life;
-  }
+// const getLives = () => {
+//   let str = '';
+//   for (let i = 0; i < hp; i++) {
+//     str += life;
+//   }
+//
+//   return str;
+// };
 
-  return str;
-};
-
-const getStars = () => `${star} x${stars}`;
+const getLives = () => `${pups[hp]}${hearts[hp]}`;
+const getStars = () => `  ${star} x${stars}`;
 const getMsg = () => (won ? winner : welcome);
 
 let gfx = [`⬜`, `🏡`, `🐶`, `🌳`, `🦖`];
@@ -132,6 +134,19 @@ ${render(tiles)}
 ${dirs}`)
 );
 
+// TODO: hearts = number of moves allowed?
+//ex: 1 heart = x_colors = 3+? moves etc
+//OR -> heart(s) = armor etc allowed PER
+//stage|map|scene etc iow can risk hp for rewards etc
+//baddies= stationary, LR1+, UD1+, Diag1+ etc
+//&& each with a 1x only version etc
+//each take a different amount of hp
+//each have various spds iow will 'patrol' and then stay stationaryfor a count_num etc and then reverse etc
+//circle & zigzag & jump rng patterns etc
+//bombs, fire, rain, etc
+//tiles that teleport, jump, freeze for count_ etc
+//powerups, boosts, etc
+//perhaps that can be purchased with stars?
 // let player = {
 //   charm: 1,
 //   power: 1,
