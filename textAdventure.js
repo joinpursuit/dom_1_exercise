@@ -149,8 +149,19 @@ ${dirs}`)
 //choose avatar: kitten or puupy?
 //multiplayer: have to work together to get home? etc unlock doors flip switches push buttons block baddies etc
 //bonus levels? fish in pond escape baddies etc
-//powerups, boosts, etc
 //perhaps that can be purchased with stars?
+//spelunky like procedural map generation
+//& items & basic abilities boosts powerups etc
+//gow game mechanics game design challenges etc
+//Emphasizers are enemies which emphasize a certain mechanic. They encourage players to use specific attacks or abilities against them to defeat them, yet at the same time it is still possible to take them out by regular means.
+//Enforcers are enemies which force the player to use a specific mechanic to defeat them. This means the player can only defeat them using these specific mechanics, with the other mechanics having little or (more often) no effect.
+//Smashers are enemies which can easily be defeated and allow the player to have fun smashing them up.
+//Challengers are tougher enemies which are meant to challenge the player and test their skills.
+//balance levels between survival | resource mgmt | melee battle|collectible game etc
+//Kit N Cuddles
+//Pup E Precious
+//top down shovel night|spelunky rogue like but w/ hp etc
+//baddie that doesnt move can block path and diff versions remove % hp etc
 // let player = {
 //   charm: 1,
 //   power: 1,
