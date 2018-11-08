@@ -144,7 +144,7 @@ ${dirs}`)
 //each have various spds iow will 'patrol' and then stay stationaryfor a count_num etc and then reverse etc
 //circle & zigzag & jump rng patterns etc
 //bombs, fire, rain, etc
-//tiles that teleport, jump, freeze for count_ etc
+//tiles that teleport, jump, freeze for count_ etc buttons switches activate traps open doors paths new baddies rewards etc
 //powerups, boosts, etc
 //perhaps that can be purchased with stars?
 // let player = {
