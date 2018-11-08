@@ -146,6 +146,8 @@ ${dirs}`)
 //bombs, fire, rain, etc
 //tiles that teleport, jump, freeze for count_ etc buttons switches activate traps open doors paths new baddies rewards etc
 //unlock upgrade etc kitten come home too
+//choose avatar: kitten or puupy?
+//multiplayer: have to work together to get home? etc unlock doors flip switches push buttons block baddies etc
 //bonus levels? fish in pond escape baddies etc
 //powerups, boosts, etc
 //perhaps that can be purchased with stars?
