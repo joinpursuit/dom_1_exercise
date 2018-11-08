@@ -163,6 +163,11 @@ ${dirs}`)
 //Pup E Precious
 //top down shovel night|spelunky rogue like but w/ hp etc
 //baddie that doesnt move can block path and diff versions remove % hp etc
+//perhaps changes color => spawns diff baddy after walked over etc
+//areas|sides of weaknesses ex: LR hurt player but if atkd|walked over Top|btm hurts baddy etc
+//alerts with tips: ex: puppyLR->baddy=skull, puppyUD^baddy=live etc
+//some appear when activated:switch or player near etc
+//perhaps touch some baddy and reset to start etc
 // let player = {
 //   charm: 1,
 //   power: 1,
