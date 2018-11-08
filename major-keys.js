@@ -36,7 +36,6 @@ let selectedThird = item3.innerHTML = third;
 let selectedFourth = item4.innerHTML = fourth;
 let selectedFifth = item5.innerHTML = fifth;
 
-
 function highlight(input, numInnerHtmlId) {
   let copy = input.slice(0);
 
