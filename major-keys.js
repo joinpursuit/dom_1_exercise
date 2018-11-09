@@ -24,38 +24,20 @@ function highlight(input, numInnerHtmlId) {
   let action = "<span style = 'background-color : yellow'>" + copy + "</span>";
 
   numInnerHtmlId.innerHTML = action;
-  // switch (numInnerHtmlId) {
-  //   case 1:
-  //     item1.innerHTML = action;
-  //     break;
-  //   case 2:
-  //     item2.innerHTML = action;
-  //     break;
-  //   case 3:
-  //     item3.innerHTML = action;
-  //     break;
-  //   case 4:
-  //     item4.innerHTML = action;
-  //     break;
-  //   case 5:
-  //     item5.innerHTML = action;
-  //     break;
 
 }
 
-if (first.toUpperCase() === first) {
-  first = first.toLowerCase();
-  highlight(first, item1);
-} else if (second.toUpperCase() === second) {
-  second = second.toLowerCase();
-  highlight(second, item2);
-} else if (third.toUpperCase() === third) {
-  third = third.toLowerCase();
-  highlight(third, item3);
-} else if (fourth.toUpperCase() === fourth) {
-  fourth = fourth.toLowerCase();
-  highlight(fourth, item4);
-} else if (fifth.toUpperCase() === fifth) {
-  fifth = fifth.toLowerCase();
-  highlight(fifth, item5);
-}
+let answers =[
+  {answer:first, item:item1},
+  {answer:second, item:item2},
+  {answer:third, item:item3},
+  {answer:fourth, item:item4},
+  {answer:fifth, item:item5},
+];
+
+answers.forEach((el) => {
+  if (el.answer.toUpperCase ()=== el.answer) {
+    el.answer = el.answer.toLowerCase();
+    highlight(el.answer, el.item)
+  }
+})
