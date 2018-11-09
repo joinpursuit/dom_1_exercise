@@ -21,40 +21,41 @@ let selectedFifth = item5.innerHTML = fifth;
 
 function highlight(input, numInnerHtmlId) {
   let copy = input.slice(0);
+  let action = "<span style = 'background-color : yellow'>" + copy + "</span>";
 
-  switch (numInnerHtmlId) {
-    case 1:
-      item1.innerHTML = "<span style = 'background-color : yellow'>" + copy + "</span>";
-      break;
-    case 2:
-      item2.innerHTML = "<span style = 'background-color : yellow'>" + copy + "</span>";
-      break;
-    case 3:
-      item3.innerHTML = "<span style = 'background-color : yellow'>" + copy + "</span>";
-      break;
-    case 4:
-      item4.innerHTML = "<span style = 'background-color : yellow'>" + copy + "</span>";
-      break;
-    case 5:
-      item5.innerHTML = "<span style = 'background-color : yellow'>" + copy + "</span>";
-      break;
+  numInnerHtmlId.innerHTML = action;
+  // switch (numInnerHtmlId) {
+  //   case 1:
+  //     item1.innerHTML = action;
+  //     break;
+  //   case 2:
+  //     item2.innerHTML = action;
+  //     break;
+  //   case 3:
+  //     item3.innerHTML = action;
+  //     break;
+  //   case 4:
+  //     item4.innerHTML = action;
+  //     break;
+  //   case 5:
+  //     item5.innerHTML = action;
+  //     break;
 
-  }
 }
 
 if (first.toUpperCase() === first) {
   first = first.toLowerCase();
-  highlight(first, 1);
+  highlight(first, item1);
 } else if (second.toUpperCase() === second) {
   second = second.toLowerCase();
-  highlight(second, 2);
+  highlight(second, item2);
 } else if (third.toUpperCase() === third) {
   third = third.toLowerCase();
-  highlight(third, 3);
+  highlight(third, item3);
 } else if (fourth.toUpperCase() === fourth) {
   fourth = fourth.toLowerCase();
-  highlight(fourth, 4);
+  highlight(fourth, item4);
 } else if (fifth.toUpperCase() === fifth) {
   fifth = fifth.toLowerCase();
-  highlight(fifth, 5);
+  highlight(fifth, item5);
 }
