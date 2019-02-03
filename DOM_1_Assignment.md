@@ -1,6 +1,6 @@
 # 🔑 Major Keys 🔑
 
-_Create different js files for each exercise. Import them into your HTML file to check them_
+_Create jdifferent js files for each exercise. Import them into your HTML file to check them_
 
 ## Exercise 1: String Repeater
 
